@@ -1,0 +1,23 @@
+# Node
+node_modules/
+.next/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+
+# Models & data
+ml_service/models/*.joblib
+ml_service/models/*.pt
+ml_service/models/*.onnx
+
+# Env files
+.env
+.env.local
+web/.env.local
